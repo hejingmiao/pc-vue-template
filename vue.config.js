@@ -29,8 +29,7 @@ module.exports = {
   devServer: {
     disableHostCheck: true,
     hot: true,
-    // port: 8000,
-    // proxy: 'http://t.c.m.163.com/',
+    // port: 8080,
     before (app) {
       apiMocker(app, path.resolve('./mock/index.js'))
     }

@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     onLoad() {
-      // apiLogin().then(res => {
+      // apiLogin({username: 'hjm'}).then(res => {
       //   console.log(res)
       // }).catch(err => {
       //   console.log('apiLogin', err)

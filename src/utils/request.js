@@ -2,9 +2,10 @@ import axios from 'axios'; // 引入axios
 import QS from 'qs'; // 引入qs模块，用来序列化post类型的数据，后面会提到
 
 if (process.env.NODE_ENV == 'development') {    
+  // axios.defaults.baseURL = '//t.c.m.163.com'
   axios.defaults.baseURL = './'
 } else if (process.env.NODE_ENV == 'production') {    
-  axios.defaults.baseURL = '//t.c.m.163.com'
+  axios.defaults.baseURL = '//c.m.163.com'
 }
 axios.defaults.timeout = 10000 // 设置默认请求超时时间
 // post请求头

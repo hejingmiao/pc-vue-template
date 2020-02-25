@@ -87,7 +87,7 @@ pc_vue_template
  │  │  ├ helper.js          # 统计js
  │  │  ├ index.js           # 自定义通用方法
  │  │  ├ jsonp.js           # jsonp请求
- │  │  ├ request.js         # axios请求封装
+ │  │  ├ request.js         # axios请求封装,接口域名在这里配置
  │  └  └ track.js           # 统计方法
  ├ views/                   # 路由主页面
  ├ .env                     # 全局变量配置文件
@@ -106,6 +106,6 @@ pc_vue_template
 * vue.config.js [配置参考](https://cli.vuejs.org/config/)
 * css默认使用[stylus](https://stylus.bootcss.com/)
 * 统计ID位于`.env`的`VUE_APP_PROJECT_ID`字段
-* 已添加`vuex`,`router`
+* 已添加[vuex](https://vuex.vuejs.org/)，[router](https://router.vuejs.org/zh/)
 * npm run serve开启本地服务后，可以使用localhost:8080或{ip}:8080或dev.f2e.163.com:8080（需配置hosts）调试
 * 打包时静态资源默认添加hash，上传后进行缓存，无修改不再重复上传
