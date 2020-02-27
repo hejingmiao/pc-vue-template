@@ -33,5 +33,14 @@ module.exports = {
     before (app) {
       apiMocker(app, path.resolve('./mock/index.js'))
     }
+  },
+  pwa: {
+    iconPaths: {
+      favicon32: 'resource/static/share-icon.png',
+      favicon16: 'resource/static/share-icon.png',
+      appleTouchIcon: 'resource/static/share-icon.png',
+      maskIcon: 'resource/static/share-icon.png',
+      msTileImage: 'resource/static/share-icon.png'
+    }
   }
 }
